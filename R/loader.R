@@ -2,8 +2,7 @@
 #'
 #' Функция для проверки
 #' @export
-
-say_hello <- function () {
+say_hello <- function() {
   print("HELLO FROM waframium")
 }
 
