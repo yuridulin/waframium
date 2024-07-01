@@ -1,9 +1,9 @@
 #' Функция для проверки
 #'
-#' @return Текст привета
+#' Функция для проверки
 #' @export
 
 say_hello <- function () {
-  return("HELLO FROM waframium")
+  print("HELLO FROM waframium")
 }
 
