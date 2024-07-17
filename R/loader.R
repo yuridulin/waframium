@@ -4,6 +4,9 @@
 #' @export
 say_hello <- function() {
   print("HELLO FROM waframium")
+
+  reticulate::source_python("python/projects.py")
+  reticulate::source_python("python/loader.py")
 }
 
 
